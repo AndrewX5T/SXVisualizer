@@ -1,0 +1,15 @@
+{
+  "name": "sxvisualizer",
+  "version": "1.0.0",
+  "description": "A simple javascript+html visualizer",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sxvisualizer"
+  },
+  "author": "Andrew Hein",
+  "license": "ISC"
+}
