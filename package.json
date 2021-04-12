@@ -4,7 +4,8 @@
   "description": "A simple javascript+html visualizer",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": "node server.js",
+    "start": "node servers.js"
   },
   "repository": {
     "type": "git",
