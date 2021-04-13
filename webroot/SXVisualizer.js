@@ -64,7 +64,7 @@ function renderFrame() {
   for (var i = 0; i < frequencyChannels[0].length; i++) {
     let barHeight = (GetChannelAverageFrequency(i) / 256) * barMaxHeight;
 
-   var r = barHeight / 2;
+    var r = barHeight / 2;
     var g = 50;
     var b = barHeight;
 
@@ -74,7 +74,6 @@ function renderFrame() {
     horiz_cursor += barWidth;
   }
 
-  console.log("Frame");
   animation = requestAnimationFrame(renderFrame);
   return animation;
 }
